@@ -1,69 +1,79 @@
-body{
-    padding: 0;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color:#141414;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center ;
-    color: #FFFFFF;
+* {
+  color: #ffffff;
 }
-    
-.card{
-    background-color: #1F1F1F;
-    border-radius: 16px;
-    width: 400px;
-    height: 650px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+body {
+  background-color: #141414;
+  background-image: url(bg-pattern-bottom.svg);
+}
+.r {
+  margin-top: 50px;
+}
+.r1{
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+.con {
+  background-color: #1f1f1f;
+  width: 300px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0;
+  border-radius: 20px;
+}
+.b {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+a {
+  background-color: #333333;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+a:hover{
+  background-color: #c5f82a;
+  color: black;
 }
 
-.r{
-    color:#C4F82A;
-    font-size: 14px;
+img {
+  border-radius: 50%;
+  border: #c5f82a solid 3px;
 }
 
-h2{
-    font-size: 14px;
+
+.ttt {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #141414; /* نفس لون خلفية الصفحة الأساسية */
+  color: #888888;           /* رمادي فاتح للنص الثانوي */
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  border-top: 1px solid #333333; /* خط علوي بسيط يفصل الفوتر عن المحتوى */
+  margin-top: 40px;
 }
 
-.avatar{
-    width: 96px;
-    height: 88px;
-    border-radius: 50%;
-    display: inline-block;
-    padding-top: 20px;
+.ttt a {
+  color: #C5F82A;           /* اللون الأخضر الليموني (Neon Green) للروابط */
+  text-decoration: none;     /* إزالة الخط السفلي */
+  font-weight: bold;
+  transition: 0.3s ease;     /* حركة ناعمة عند التفاعل */
 }
 
-.button-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 36px;
-    flex-direction: column;
-}
-
-.follow-button{
-    background-color: #333333;
-    border: none;
-    border-radius: 8px;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-top: 20px;
-    margin-left: 50;
-    display: block;
-    cursor: pointer;
-    width: 300px;
-    height: 48px;
-}
-.follow-button:hover{
-    background-color: #C4F82A;
-    color: #000000;
+.ttt a:hover {
+  color: #FFFFFF;           /* يتحول للأبيض عند مرور الماوس */
+  text-decoration: underline; /* يظهر الخط فقط عند التأشير للمسة تفاعلية */
 }
